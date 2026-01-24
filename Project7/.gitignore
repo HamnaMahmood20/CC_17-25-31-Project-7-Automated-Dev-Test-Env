@@ -1,0 +1,34 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+# Ansible
+*.retry
+.vault_pass
+*.secret
+
+# AWS credentials
+.aws/
+*.pem
+*.key
+
+# IDE / OS / Logs / Temp
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.log
+logs/
+.env
+.env.local
+*.backup
+*.bak
+tmp/
+temp/
+
